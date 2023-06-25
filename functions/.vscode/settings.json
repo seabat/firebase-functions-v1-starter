@@ -1,0 +1,15 @@
+// 拡張子を指定する場合は以下
+{
+    //*.ts
+    "[typescript]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    //*.tsx
+    "[typescriptreact]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    }
+}
